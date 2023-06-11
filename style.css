@@ -1,0 +1,77 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #333;
+  }
+  
+  header p {
+    color: #666;
+  }
+  
+  /* Estilos para a seção de pesquisa */
+  .search-section {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos para a seção de detalhes do animal */
+  .animal-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .animal-details h2 {
+    color: #333;
+  }
+  
+  /* Estilos para a seção de recursos */
+  .resources {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .resources h2 {
+    color: #333;
+  }
+  
+  /* Estilos para a seção de visita ao abrigo */
+  .visit-shelter {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .visit-shelter h2 {
+    color: #333;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  footer p {
+    color: #666;
+  }
+  .animal-list 
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .animal {
+    width: calc(50%-20%);
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .animal-list {
+    position: relative;
+  }
+  
+  .animal-list h2 {
+    position: absolute;
+    top: -20px;
+  }
