@@ -3,6 +3,51 @@
     <head>
         <title>Pets Donation</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            window.onload = function() {
+                var especieSelect = document.getElementById('especie');
+               
+                var animaisCao = document.querySelectorAll('.animal.cao');
+                var animaisGato = document.querySelectorAll('.animal.gato');
+                  
+                function exibirAnimais() {
+                    
+                    var especieSelecionada = especieSelect.value;
+    
+                   
+                    if (especieSelecionada === 'cao') {
+                        
+                        for (var i = 0; i < animaisCao.length; i++) {
+                            animaisCao[i].style.display = 'block';
+                        }
+                        for (var j = 0; j < animaisGato.length; j++) {
+                            animaisGato[j].style.display = 'none';
+                        }
+                    } else if (especieSelecionada === 'gato') {
+                        
+                        for (var k = 0; k < animaisGato.length; k++) {
+                            animaisGato[k].style.display = 'block';
+                        }
+                        for (var l = 0; l < animaisCao.length; l++) {
+                            animaisCao[l].style.display = 'none';
+                        }
+                    } else {
+                       
+                        for (var m = 0; m < animaisCao.length; m++) {
+                            animaisCao[m].style.display = 'block';
+                        }
+                        for (var n = 0; n < animaisGato.length; n++) {
+                            animaisGato[n].style.display = 'block';
+                        }
+                    }
+                }
+    
+                
+                especieSelect.addEventListener('change', exibirAnimais);
+                   
+                exibirAnimais();
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -13,37 +58,35 @@
         <section>
             <h2>Pesquisar Animais para Adoção</h2>
             <form>
-                <!-- Critérios de pesquisa -->
-                <!-- Espécie -->
+               
                 <label for="especie">Espécie:</label>
                 <select id="especie">
                     <option value="cao">Cão</option>
                     <option value="gato">Gato</option>
-                    <option value="outros">Outros</option>
                 </select>
                 
-                <!-- Raça -->
+                
                 <label for="raca">Raça:</label>
                 <input type="text" id="raca">
                 
-                <!-- Idade -->
+                
                 <label for="idade">Idade:</label>
                 <input type="text" id="idade">
                 
-                <!-- Localização -->
+                
                 <label for="localizacao">Localização:</label>
                 <input type="text" id="localizacao">
                 
-                <!-- Botão de pesquisa -->
+                
                 <button type="submit">Pesquisar</button>
             </form>
         </section>
         
         <section class="animal-list">
             <h2>Animais Disponíveis para Adoção</h2>
-            <div class="animal">
+            <div class="animal cao">
                 <img src="imagem_Animal.jpg" alt="Imagem do animal" width="250px">
-                <h3>Nome do Animal</h3>
+                <h3>Rex</h3>
                 <p>Espécie: Cão</p>
                 <p>Raça: Desconhecida</p>
                 <p>Idade: 2 anos</p>
@@ -51,12 +94,22 @@
                 <p>Contato: abrigo@example.com</p>
                 <button type="button">Adotar</button>
             </div>
-            <div class="animal">
+            <div class="animal cao">
                 <img src="imagem_Animal1.jpg" alt="Imagem do animal" width="200px">
                 <h3>Bianca</h3>
                 <p>Espécie: Cão</p>
                 <p>Raça: Husky</p>
                 <p>Idade: 1 ano</p>
+                <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Contato: abrigo@example.com</p>
+                <button type="button">Adotar</button>
+            </div>
+            <div class="animal gato">
+                <img src="imagem_Animal3.jpg" alt="Imagem do animal" width="250px">
+                <h3>Mia</h3>
+                <p>Espécie: Gato</p>
+                <p>Raça: Siamês</p>
+                <p>Idade: 2 anos</p>
                 <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <p>Contato: abrigo@example.com</p>
                 <button type="button">Adotar</button>
