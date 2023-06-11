@@ -75,3 +75,21 @@ header {
     position: absolute;
     top: -20px;
   }
+  .animal {
+    display: none; /* Oculta inicialmente todos os animais */
+    margin-bottom: 20px;
+  }
+  
+  .cao {
+    /* Estilos específicos para os animais da espécie "Cão" */
+  }
+  
+  .gato {
+    /* Estilos específicos para os animais da espécie "Gato" */
+  }
+  .animal.cao {
+    /* Estilos para os cães */
+  }
+  body {
+    background-color: #eaf2f8;
+  }
