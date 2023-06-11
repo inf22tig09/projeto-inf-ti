@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pets Donation</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Site Pets Donation</h1>
+            <p>Encontre seu novo melhor amigo!</p>
+        </header>
+        
+        <section>
+            <h2>Pesquisar Animais para Adoção</h2>
+            <form>
+                <!-- Critérios de pesquisa -->
+                <!-- Espécie -->
+                <label for="especie">Espécie:</label>
+                <select id="especie">
+                    <option value="cao">Cão</option>
+                    <option value="gato">Gato</option>
+                    <option value="outros">Outros</option>
+                </select>
+                
+                <!-- Raça -->
+                <label for="raca">Raça:</label>
+                <input type="text" id="raca">
+                
+                <!-- Idade -->
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade">
+                
+                <!-- Localização -->
+                <label for="localizacao">Localização:</label>
+                <input type="text" id="localizacao">
+                
+                <!-- Botão de pesquisa -->
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+        
+        <section>
+            <h2>Animais Disponíveis para Adoção</h2>
+            <div class="animal">
+                <img src="imagem_Animal.jpg" alt="Imagem do animal" width="250px">
+                <h3>Nome do Animal</h3>
+                <p>Espécie: Cão</p>
+                <p>Raça: Desconhecida</p>
+                <p>Idade: 2 anos</p>
+                <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Contato: abrigo@example.com</p>
+                <button type="button">Adotar</button>
+            </div>
+            
+           
+        </section>
+        
+        <footer>
+            <p>Site de Adoção de Animais &copy; 2023. Todos os direitos reservados.</p>
+            <p>Contato: contato@example.com</p>
+    </body>
+    
+</html>
