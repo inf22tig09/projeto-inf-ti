@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adoptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pets.xsd">
+  <animal>
+    <name>Rex</name>
+    <species>Cão</species>
+    <breed>Desconhecida</breed>
+    <age>2 anos</age>
+    <description>Rex é um cãozinho carinhoso de dois anos de idade. Sua raça é desconhecida, mas isso não o impede de ser um companheiro leal e brincalhão.</description>
+    <contact>abrigo@gmail.com</contact>
+  </animal>
+  <animal>
+    <name>Bianca</name>
+    <species>Cão</species>
+    <breed>Husky</breed>
+    <age>1 ano</age>
+    <description> Bianca, é uma husky de 1 ano de idade. Ela é extremamente adoravel e brincalhona.</description>
+    <contact>abrigo@gmail.com</contact>
+  </animal>
+  <animal>
+    <name>Mia</name>
+    <species>Gato</species>
+    <breed>Siamês</breed>
+    <age>2 anos</age>
+    <description>Mia é uma gatinha adorável de dois anos de idade. Ela é uma gata de raça siamesa com olhos expressivos e pelagem marcante.</description>
+    <contact>abrigo@gmail.com</contact>
+  </animal>
+  <animal>
+    <name>King</name>
+    <species>Gato</species>
+    <breed>Europeu comum</breed>
+    <age>Desconhecida</age>
+    <description>King é um gato charmoso de raça Europeu comum. Sua idade é desconhecida, mas sua aparência revela um gato maduro e elegante.</description>
+    <contact>abrigo@gmail.com</contact>
+  </animal>
+</adoptions>
